@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Bluemind" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:colorAccent">#71C7FF</item>
+        <item name="android:windowBackground">#0B1420</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorControlNormal">#A7BED4</item>
+        <item name="android:colorControlActivated">#71C7FF</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Theme.Bluemind.Ocean" parent="Theme.Bluemind">
+        <item name="android:colorAccent">#75E1E0</item>
+        <item name="android:windowBackground">#071C25</item>
+        <item name="android:colorControlActivated">#75E1E0</item>
+    </style>
+    <style name="Theme.Bluemind.Moonlight" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:colorAccent">#244D98</item>
+        <item name="android:windowBackground">#EEF3FC</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorControlNormal">#475D7D</item>
+        <item name="android:colorControlActivated">#244D98</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

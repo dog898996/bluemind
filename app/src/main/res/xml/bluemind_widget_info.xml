@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_description"
+    android:initialLayout="@layout/bluemind_widget"
+    android:minHeight="76dp"
+    android:minResizeHeight="52dp"
+    android:minResizeWidth="120dp"
+    android:minWidth="128dp"
+    android:previewLayout="@layout/bluemind_widget"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellHeight="2"
+    android:targetCellWidth="2"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />
