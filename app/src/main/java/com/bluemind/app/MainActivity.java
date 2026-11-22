@@ -292,18 +292,16 @@ public final class MainActivity extends Activity {
     }
 
     private void renderToday() {
-        FrameLayout hero = new FrameLayout(this);
+        FrameLayout hero = new RainSceneView(this, style);
         hero.setBackground(style.rounded(style.panel, 23, style.outline));
         hero.setClipToOutline(true);
-        hero.addView(new RainSceneView(this, style),
-                new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
-                        ViewGroup.LayoutParams.MATCH_PARENT));
         LinearLayout heroContent = style.row();
         heroContent.setMinimumHeight(style.dp(151));
         heroContent.setPadding(style.dp(20), style.dp(16), style.dp(10), style.dp(16));
         style.weight(heroContent, style.title("일상의 소리에\n귀 기울여요", 24, style.ink));
         heroContent.addView(drop(), new LinearLayout.LayoutParams(style.dp(111), style.dp(111)));
-        hero.addView(heroContent);
+        hero.addView(heroContent, new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         style.add(body, hero, 0);
 
         LinearLayout usage = style.panel();

@@ -6,16 +6,16 @@ import android.graphics.LinearGradient;
 import android.graphics.Paint;
 import android.graphics.RadialGradient;
 import android.graphics.Shader;
-import android.view.View;
+import android.widget.FrameLayout;
 
-final class RainSceneView extends View {
+final class RainSceneView extends FrameLayout {
     private final Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final BlueTheme style;
 
     RainSceneView(Context context, BlueTheme style) {
         super(context);
         this.style = style;
-        setImportantForAccessibility(IMPORTANT_FOR_ACCESSIBILITY_NO);
+        setWillNotDraw(false);
     }
 
     @Override
