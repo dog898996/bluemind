@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluemind</string>
+    <string name="service_label">Bluemind 콘텐츠 가림</string>
+    <string name="service_summary">선택한 앱의 콘텐츠를 가리고 열람 횟수를 기록합니다.</string>
+    <string name="service_description">선택한 인스타그램, 틱톡, 유튜브, X 화면의 버튼과 콘텐츠 위치를 확인합니다. 가림을 눌렀을 때 영상으로 이동하는 탭을 전달할 수 있습니다. Android 14 이상에서는 이미 연 영상의 화면 변화를 재생 확인에 쓸 수 있습니다. 화면과 텍스트는 저장하지 않으며 횟수, 시각, 열람 시간은 이 기기에만 기록됩니다.</string>
+    <string name="cover_prompt">스스로 판단하고 선택하세요</string>
+    <string name="cover_limit">설정한 열람 한도에 도달했어요</string>
+    <string name="reminder_channel">열람 알림</string>
+    <string name="reminder_rule">%1$d시간 동안 %2$d개를 열었어요. 잠시 일상의 소리에 귀 기울여 보세요.</string>
+    <string name="floating_count">%1$d / %2$d</string>
+    <string name="floating_count_unlimited">%1$d</string>
+    <string name="floating_count_description">오늘 열린 콘텐츠 %1$d개</string>
+</resources>
